@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang ="en">
+    <head>
+        <mata charset ="UTF-8">
+        <meta https-equiv="X-UA-Compatible" content='IE=edge'>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>QuickRecipes</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img src="quickrecipes-logo.png" style="width: 250px; height: 60px;"> 
+                <!--<h1>
+                <i class='bx bx-bowl-rice'></i>
+                QuickRecipes
+                </h1>-->
+                <form class="searchBox">
+                    <input type="text" placeholder="Search for recipes">
+                    <button type="submit" class="searchBtn"><i class="bx bx-search"></i></button>
+                </form>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div class="recipe-container">
+                    <h2>Search your favourite recipes...</h2>
+                </div>
+                <div class="recipe-details">
+                    <button type="button" class="recipe-close-btn">
+                        <i class='bx bx-x' ></i>
+                    </button>
+                    <div class="recipe-details-content"></div>
+                </div>
+            </section>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
+
